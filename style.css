@@ -1,0 +1,389 @@
+*{
+	transition-duration: .3s;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #2b2f38;
+	height: 300px;
+	color: #fff;
+}
+
+.left-header-colomn {
+	width: 640px;
+	display: inline-block;
+	float: left;
+}
+.logo{
+	margin-top: 30px;
+}
+	.logo-img {
+		text-align: left;
+		display: inline-block;
+		float: left;
+		width: 60px;
+	}
+
+	.logo-desc {
+		text-align: left;
+		display: inline-block;
+		float: left;
+		padding-left: 20px;
+	}
+		.logo .logo-desc > h1 {
+			font-family: 'Cuprum', sans-serif;
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+
+		.logo .logo-desc > p
+		{
+			font-family: 'Cuprum', sans-serif;
+			color: #b9cbdd;
+			font-size: 14px;
+			text-transform: uppercase;
+			padding: 10px 0;
+		}
+
+	.left-header-colomn .r-slogan {
+		padding-top: 25px;
+		font-family: 'Cuprum', sans-serif;
+		clear: both;
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	.left-header-colomn .start-button {
+
+	}
+
+
+.right-header-colomn {
+	display: inline-block;
+	float: right;
+	width: 320px;
+	padding-top: 30px;
+	font-family: 'Cuprum', sans-serif;
+}
+	
+	.button1, .button2, .button3{
+		background: #34495e;
+		height: 35px;
+		display: inline-block;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 35px;
+		border-radius: 5px;
+	}
+
+	.button1:hover, .button2:hover, .button3:hover{
+		background: #4e6d8d;
+		cursor: pointer;
+	}
+
+	.button1, .button2{
+		width: 47%;
+		margin-right: 2%;
+	}
+
+	.button3{
+		width: 100%;
+		margin-top: 15px;
+	}
+
+
+	.right-header-colomn .l-slogan{
+		margin-top: 40px;
+		font-size: 0.9em;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+		background: url(img/slogan-bg.png);
+	}
+		.right-header-colomn .l-slogan span{
+			background: url(img/slogan-bg.png);
+			background-size: 50px;
+			padding: 0 5px 0 5px;
+		}
+
+.section1, .section2, .section3{
+	width: 30%;
+	display: inline-block;
+	margin-right: 3%;
+	margin-top: 25px;
+	text-align: center;
+}
+
+	.service-section{
+		height: 400px;
+	}
+
+	.reviews-section{
+		height: 300px;	
+	}
+
+	.statistics-section{
+		height: 190px;
+		background: #ecf0f1;
+		line-height: 95px;
+		color: #3498db;
+		font-size: 32px;
+		font-family: 'PT Sans', sans-serif;
+
+	}
+		.statistics-section > div{
+
+			height: 50%;
+			background: #3498db;
+			color: #fff;
+		}
+
+	.other-section{
+		height: 270px;	
+	}
+		.other-section div{
+			margin-top: 25px;
+		}
+
+.service {
+	
+}
+
+	.sv-img{
+		width: 180px;
+		height: 180px;
+		margin: 0 auto;
+		margin-top: 30px;
+		background-repeat: no-repeat;
+	}
+
+	.section1 .sv-img{
+		background-image: url("img/sprites.png");
+		background-position: 20px 0;
+	}
+
+	.section2 .sv-img{
+		background-image: url("img/sprites.png");
+		background-position: -180px 0;
+	}
+
+	.section3 .sv-img{
+		background-image: url("img/sprites.png");
+		background-position: -380px 0;
+	}
+
+	.service-desc h1{
+		color: #e74c3c;
+		font-family: 'Cuprum', sans-serif;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 28px;
+	}
+
+	.service-desc p{
+		padding-top: 20px;
+		color: #34495e;
+		line-height: 1.2em;
+		font-family: 'PT Sans', sans-serif;
+	}
+
+.service .content .section1, .service .content .section2, .service .content .section3{
+	background: #ecf0f1;
+	border-radius: 5px;
+}
+
+.reviews {
+
+}
+	.desc-button-center{
+		margin-left: 33.5%;
+		width: 30%;
+	}
+	
+	.desc-button{
+		width: 100%;
+	}
+
+	.description-button {
+	
+	height: 50px;
+	line-height: 50px;
+	background: #27ae60;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f1ffe6;
+	margin-top: 25px;
+	border-radius: 5px;
+	position: relative;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 24px;
+	}
+		.description-button:after{
+			content: "";
+			position: absolute;
+			border-top: 10px solid #27ae60;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			bottom: -9px;
+			left: 47%;
+		}
+
+	.reviewer-photo{
+		width: 145px;
+		height: 145px;
+		border-radius: 5px;
+		margin: 0 auto;
+		box-shadow: 0px 5px 0 0 #27ae60;
+	}
+
+		.section1 .reviewer-photo{
+			background-image: url(img/1-user.jpg);
+		}
+
+		.section2 .reviewer-photo{
+			background-image: url(img/2-user.jpg);
+		}
+
+		.section3 .reviewer-photo{
+			background-image: url(img/3-user.jpg);
+		}
+
+	.quote{
+		padding-top: 30px;
+		font-style: italic;
+		color: #3e4651;
+		text-align: center;
+		line-height: 1.3em;
+		font-family: 'PT Sans', sans-serif;
+	}
+
+	.quote:before{
+		content: "«";
+	}
+
+	.quote:after{
+		content:"»";
+	}
+
+.statistics {
+
+}
+
+.other {
+	height: 350px;
+}
+
+	.other .other-section{
+		padding-top: 20px;
+		color: #34495e;
+		line-height: 1.2em;
+		font-family: 'PT Sans', sans-serif;
+	}
+
+.footer {
+	background: #2c3e50;
+	height: 170px;
+}
+
+.social, .third-header, .second-header, .first-header{
+	padding-top: 20px;
+}
+
+	.social {
+		float: left;
+		display: inline-block;
+		width: 200px;
+	}
+		.social .logo-desc > h1{
+			color: #fff;
+			font-size: 20px;
+			text-transform: uppercase;
+			font-family: 'Cuprum', sans-serif;
+		}
+		.social-button{
+			clear: both;
+			padding-top: 5px;
+		}
+
+			.social-vk, .social-fb, .social-tw{
+
+				display: inline-block;
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				border: 5px solid #2c3743;
+				background: #34495e;
+				text-align: center;
+				color: #fff;
+				line-height: 40px;
+				cursor: pointer;
+			}
+
+			.social-vk:hover, .social-fb:hover, .social-tw:hover{
+				border: 5px solid #3498db;
+				background: #2980b9;
+			}
+		.copyright{
+			color: #95a5a6;
+			font-size: 12px;
+			
+			padding: 10px 0 0 20px;
+		}
+	.footer-section {
+		float: right;
+		width: 150px;
+		padding-top: 15px;
+		font-family: 'PT Sans', sans-serif;
+	}
+
+	.footer-section h1{
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.footer-section ul{
+		margin-top: 25px;
+		line-height: 1.7em;
+	}
+
+	.footer-section h1+ul{
+		margin-top: 10px;
+		line-height: 1.7em;
+	}
+
+	.footer-section ul a:link, .footer-section ul a:visited{
+		text-decoration: none;
+		color: #bdc3c7;
+	}
+
+.button{
+	font-family: 'Cuprum', sans-serif;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.green-button{
+	height: 50px;
+	width: 300px;
+	background: #27ae60;
+	line-height: 50px;
+
+}
+
+.green-button:hover {
+	background: #2ecc71;
+}
